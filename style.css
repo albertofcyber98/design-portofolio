@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Merriweather:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Assistant';
+    background-color: white;
+    color: #000000;
+    background-image: url("images/bg-header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 715px;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.fontColor{
+    color: #e2e2e2;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+.fontColor:hover{
+    color: #ffffff;
+}
+header{
+    padding-top: 155px;
+}
+header h4{
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Merriweather';
+    font-weight: 400;
+}
+header h1{
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 40px;
+}
+header p{
+    color: #ffffff;
+    padding-top: 20px;
+    font-weight: 300px;
+    font-size: 24px;
+}
+.button-padding{
+    margin-top: 125px;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    padding: 6px 40px;
+    font-size: 20px;
+}
+header a:hover{
+    color: #c0c0c0;
+    border: 2px solid #ffaf36;
+}
+.about-me{
+    margin-top: 200px;
+}
+.about-title{
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 40px;
+}
+.about-main{
+    margin-top: 100px;
+}
+.about-title-col{
+    font-family: 'Merriweather';
+    font-size: 36px;
+    font-weight: 700;
+}
+.about-title-col span{
+    font-family: 'Merriweather';
+    color: #ff9900;
+}
+.about-main-col{
+    margin-top: 10px;
+    font-size: 24px;
+}
+.about-main-col span{
+    font-weight: 700;
+}
+.font-right-left{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.font-right-right{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.my-skill{
+    margin-top: 140px;
+}
+.my-skill h1{
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: 700;
+}
+.skill-main{
+    margin-top: 40px;
+    background-color: #FFF7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.card-my-skill{
+    width: 100px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.card-my-skill:hover{
+    box-shadow: 3px 3px 10px 2px rgba(199, 122, 122, 0.1);
+}
+.card-my-skill img{
+    padding: 10px 5px;
+}
+.skill-main p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.skill-main p{
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.progress-custom-html{
+    height: 11px;
+    background-color: #C4C4C4;
+    width: 80%;
+    border-radius: 3px;
+}
+.progress-value-custom-html{
+    margin-left: -15px;
+    background-color: #ff9900;
+    border-radius: 3px;
+    width: 90%;
+    height: 11px;
+}
+.progress-custom-css{
+    height: 11px;
+    background-color: #C4C4C4;
+    width: 80%;
+    border-radius: 3px;
+}
+.progress-value-custom-css{
+    margin-left: -15px;
+    background-color: #ff9900;
+    border-radius: 3px;
+    width: 60%;
+    height: 11px;
+}
+.progress-custom-php{
+    height: 11px;
+    background-color: #C4C4C4;
+    width: 80%;
+    border-radius: 3px;
+}
+.progress-value-custom-php{
+    margin-left: -15px;
+    background-color: #ff9900;
+    border-radius: 3px;
+    width: 80%;
+    height: 11px;
+}
+.progress-custom-laravel{
+    height: 11px;
+    background-color: #C4C4C4;
+    width: 80%;
+    border-radius: 3px;
+}
+.progress-value-custom-laravel{
+    margin-left: -15px;
+    background-color: #ff9900;
+    border-radius: 3px;
+    width: 35%;
+    height: 11px;
+}
+.progress-custom-javascript{
+    height: 11px;
+    background-color: #C4C4C4;
+    width: 80%;
+    border-radius: 3px;
+}
+.progress-value-custom-javascript{
+    margin-left: -15px;
+    background-color: #ff9900;
+    border-radius: 3px;
+    width: 45%;
+    height: 11px;
+}
+.padding-card{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.portofolio{
+    margin-top: 140px;
+}
+.portofolio h1{
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: 700;
+}
+.menu{
+    margin-top: 60px;
+    margin-left: -15px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu{
+    height: 30px;
+    text-align: center;
+}
+.menu ul li {
+    display: inline-flex;
+    margin:0px 20px;
+}
+.menu ul li a{
+    display: block;
+    color: #000000;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 0px 20px;
+    line-height: 30px;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid #ff9900;
+}
+.menuActive{
+    border-bottom: 2px solid #ff9900;
+}
+.portofolio-main img:hover{
+    box-shadow: 5px 5px 10px 5px rgba(199, 122, 122, 0.1);
+}
+.button-portofolio{
+    margin-top: 60px;
+}
+.button-portofolio a{
+    text-decoration: none;
+    color: #ff9900;
+    border: 2px solid #C4C4C4;
+    padding: 6px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.blog{
+    margin-top: 140px;
+}
+.blog h1{
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-blog{
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px 5px rgba(199, 122, 122, 0.1);
+    border-radius: 13px;
+}
+.card-blog img{
+    padding: 0px 0px;
+    border-radius: 13px;
+}
+.card-blog .title-category{
+    margin-top: 14px;
+    color: #ff9900;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-blog .title{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Merriweather';
+}
+.card-blog .date{
+    margin-top: 33px;
+    font-weight: 400;
+    color: #C4C4C4;
+    font-size: 14px;
+    padding: 14px;
+}
+.team .title-team h1{
+    margin-top: 140px;
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-team{
+    width: 250px;
+    height: 295px;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+.card-team img{
+    width: 108px;
+    margin: auto;
+    margin-top: 30px;
+}
+.card-team-menu .name{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 16px;
+    font-weight: 600;
+}
+.card-team-menu .job{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 6px;
+    font-weight: 400;
+}
+.card-team-menu .place{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 6px;
+    font-weight: 300;
+}
+.title-contact-me{
+    margin-top: 140px;
+}
+.title-contact-me h1{
+    font-weight: 700;
+    font-family: 'Merriweather';
+    font-size: 40px;
+}
+.main-contact-me{
+    margin-top: 40px;
+    background: rgba(255, 153, 0, 0.08);
+    padding: 80px 0px;
+}
+.main-contact-me .name-input{
+    border-radius: 10px;
+}
+.main-contact-me .textarea-input{
+    border-radius: 10px;
+}
+.main-contact-me button{
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    padding: 6px 40px;
+    font-size: 20px;
+}
+.main-contact-me button:hover{
+    background-color: #ffaf36;
+    color: #fff;
+    cursor: pointer;
+}
+footer hr{
+    margin-top: 200px;
+    color: #ffaf36;
+}
+footer p{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+footer p span{
+    color: #ff9900;
+}
