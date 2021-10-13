@@ -26,19 +26,19 @@
                         <a class="nav-link fontColor" href="#">Profil</a>
                     </li>
                     <li class="nav-item mx-5 mt-2">
-                        <a class="nav-link fontColor" href="#">About</a>
+                        <a class="nav-link fontColor" href="index.html#about">About</a>
                     </li>
                     <li class="nav-item mx-5 mt-2">
-                        <a class="nav-link fontColor" href="#">Portofolio</a>
+                        <a class="nav-link fontColor" href="index.html#portofolio">Portofolio</a>
                     </li>
                     <li class="nav-item mx-5 mt-2">
-                        <a class="nav-link fontColor" href="#">Blog</a>
+                        <a class="nav-link fontColor" href="index.html#blog">Blog</a>
                     </li>
                     <li class="nav-item mx-5 mt-2">
-                        <a class="nav-link fontColor" href="#">Team</a>
+                        <a class="nav-link fontColor" href="index.html#team">Team</a>
                     </li>
                     <li class="nav-item mx-5 mt-2">
-                        <a class="nav-link fontColor" href="#">Contact</a>
+                        <a class="nav-link fontColor" href="index.html#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -51,10 +51,9 @@
                     Welcome
                 </h4>
             </div>
-            <div class="row text-center">
-                <h1>
-                    I’m A Fullstack Web <br> Developer
-                </h1>
+            <div id="typing-text-first">
+            </div>
+            <div id="typing-text-second">
             </div>
             <div class="row text-center">
                 <p>
@@ -71,7 +70,7 @@
         </div>
     </header>
     <main>
-        <section class="about-me">
+        <section class="about-me" id="about">
             <div class="container">
                 <div class="row text-center">
                     <h1 class="about-title">About Me</h1>
@@ -112,7 +111,7 @@
                 </div>
             </div>
         </section>
-        <section class="my-skill">
+        <section class="my-skill" id="my-skill">
             <div class="row text-center">
                 <h1>
                     My Skill
@@ -230,7 +229,7 @@
                 </div>
             </div>
         </section>
-        <section class="portofolio">
+        <section class="portofolio" id="portofolio">
             <div class="container">
                 <div class="row text-center">
                     <h1>
@@ -266,7 +265,7 @@
                 </div>
             </div>
         </section>
-        <section class="blog">
+        <section class="blog" id="blog">
             <div class="container">
                 <div class="row text-center">
                     <h1>Blog</h1>
@@ -299,7 +298,7 @@
                 </div>
             </div>
         </section>
-        <section class="team">
+        <section class="team" id="team">
             <div class="container">
                 <div class="row text-center title-team">
                     <h1>
@@ -332,7 +331,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
                 <div class="row title-contact-me text-center">
                     <h1>
                         Contact Me
@@ -391,6 +390,42 @@
                 }
             });
         });
+
+        var i =0, text;
+        text = 'I’m A Fullstack Web';
+        function typingFirst(){
+            if(i < text.length){
+                document.getElementById('typing-text-first').innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typingFirst, 100)
+            }
+        }
+        var j =0, textj;
+        textj = 'Developer';
+        function typingSecond(){
+            if(j < textj.length){
+                document.getElementById('typing-text-second').innerHTML += textj.charAt(j);
+                j++;
+                setTimeout(typingSecond, 100)
+            }
+        }
+        function gabung(){
+            setTimeout(function typingFirst(){
+                if(i < text.length){
+                    document.getElementById('typing-text-first').innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typingFirst, 100)
+                }
+            }, 0);
+            setTimeout(function typingSecond(){
+                if(j < textj.length){
+                    document.getElementById('typing-text-second').innerHTML += textj.charAt(j);
+                    j++;
+                    setTimeout(typingSecond, 100)
+                }
+            }, 2400);
+        };
+        gabung()
     </script>
 </body>
 </html>
